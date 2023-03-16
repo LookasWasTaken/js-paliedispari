@@ -32,6 +32,11 @@ function isPalindrome(word) {
 const result = isPalindrome(wordUser);
 console.log(result);
 
+// seleziono l'h1 nel mio index.html e gli aggiungo tramite *.insertAdjacentHTML("primadellafinedeltag", la const result)
+
+const onScreen = document.querySelector("h1");
+onScreen.insertAdjacentHTML("beforeend", result);
+
 // ########################################################
 
 /* Pari e Dispari
