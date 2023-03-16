@@ -7,7 +7,7 @@ const wordUser = prompt("Inserisci una parola");
 
 // Creo una funzione che mi permetta di controllare e verificare se le lettere nella posizione corrispondente all'interno del parametro passato siano uguali tra loro (se sono nella stessa posizione)
 
-function isPalindrome(word) {
+function checker(word) {
   // lunghezza della parola = parola.lunghezza
 
   const wordLength = word.length;
@@ -29,7 +29,7 @@ function isPalindrome(word) {
 
 // mi salvo il risultato della funzione isPalindrome con il parametro passato all'interno che sarà ciò che ho salvato dal prompt wordUser e mi stampo il console.log
 
-const result = isPalindrome(wordUser);
+const result = checker(wordUser);
 console.log(result);
 
 // seleziono l'h1 nel mio index.html e gli aggiungo tramite *.insertAdjacentHTML("primadellafinedeltag", la const result)
