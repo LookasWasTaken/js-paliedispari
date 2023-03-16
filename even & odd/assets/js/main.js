@@ -68,3 +68,6 @@ console.log(`Il ${sum} è un numero`, result);
 
 const onScreen = document.querySelector("h1");
 onScreen.insertAdjacentHTML("beforeend", `Il ${sum} è un numero ${result}`);
+
+
+// Curiosità: il risultato dato tramite una macchina su dei valori da 1 a 5 nel gioco del pari e dispari, favorirà SEMPRE la probabilità di generare un numero dispari
