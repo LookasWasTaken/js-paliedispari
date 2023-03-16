@@ -36,3 +36,15 @@ console.log(result);
 
 const onScreen = document.querySelector("h1");
 onScreen.insertAdjacentHTML("beforeend", result);
+
+// #############################################################
+
+// Ad onor del vero, bisogna dire che a questa soluzione ci sono arrivato googlando "How can I check if a word is palindrome?"
+
+// La mia idea iniziale, letteralmente il mio primo approccio, è stato quello di trovare se ci fosse un modo per invertire la parola (per capirci: da Luca ad acuL) e fare un controllo if(Luca === acuL) ? "è palindroma" : "non è palindroma" e cavarmela così. 
+
+// Si, il modo c'è, bisogna convertire più volte la stringa in altro: prima in un array di stringhe, poi fargli un reverse ed infine convertirlo nuovamente
+
+// Il tutto viene spiegato all'interno di questo sito ( https://www.freecodecamp.org/news/two-ways-to-check-for-palindromes-in-javascript-64fea8191fd7/#1-check-for-palindromes-with-built-in-functions ) ( è già linkato all'ID dove viene descritta questa cosa)
+
+// A me personalmente sembrava un po' strano, magari lo rivedrò più avanti, così ho cercato un altro modo. Quello che ho usato, ed ho provato a descrivervi.
